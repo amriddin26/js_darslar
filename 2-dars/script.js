@@ -29,7 +29,7 @@
 // } else if (raqam > random){
 //     alert('Sizning Javobingiz Biroz  Katta');
 // } else if (raqam == random){
-//     alert('Tabriklaymiz Siz Yutingiz')
+//     alert('Tabriklaymiz Siz Yutingiz');
 // }
 
 // 2-Topshiriq

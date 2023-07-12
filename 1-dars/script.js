@@ -15,3 +15,7 @@
 
 // 2-amal
 
+let a = prompt("Salom O'zingizni tanishtiring")
+let b = alert("Salom Tanishganimdan Hursandman  " +a);
+
+
