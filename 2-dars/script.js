@@ -12,7 +12,7 @@
 //     alert(a / b);
 // }else if (amal =='%'){
 //     alert((a / 100) * b);
-// }
+            // }
 
 //  1-Topshiriq
 
