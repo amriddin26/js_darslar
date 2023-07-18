@@ -15,15 +15,16 @@
 .card{
     width: 500px;
     height: 450px;
+    background-color: rgba(124, 120, 120, 0.106);
     border-radius: 20px;
     border: 2px solid black;
     margin: 0 auto;
 }
 .box h2{
     position: absolute;
-    top: 50px;
-    right: 50px;
-    font-size: 28px;
+    top: 70px;
+    right: 100px;
+    font-size: 48px;
     color: blue;
 }
 .box span{
@@ -42,7 +43,7 @@
     margin-top: 30px;
     font-size: 50px;
 }
-.box #Btn{
+.box #Bun{
     font-size: 20px;
     color: white;
     background-color: rgb(123, 20, 226);
@@ -52,7 +53,7 @@
     padding: 15px 40px;
 }
 
-.box #Btn1{
+.box #Bun1{
     display: none;
     font-size: 20px;
     color: white;
