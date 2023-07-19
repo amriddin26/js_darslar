@@ -31,4 +31,5 @@ function allCor(){
     tLeft.value = all.value;
     tRight.value = all.value;
     bRight.value = all.value;
+    bLeft.value = all.value;
 }
