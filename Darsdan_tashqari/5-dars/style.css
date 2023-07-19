@@ -1,0 +1,16 @@
+div {
+    width: 300px;
+    height: 80px;
+    background-color: lightgreen;
+  }
+
+  label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
+
+iframe {
+    border: 1px solid black;
+    height: 50vh;
+    width: 40%; /* takes precedence over the width set with the HTML width attribute */
+}

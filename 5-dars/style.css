@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    background-color: rgba(104, 104, 240, 0.225);
+}
+.block{
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(117, 191, 193, 0.603);
+}
+h1{
+    padding: 20px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input{
+    padding: 5px;
+}
+button{
+    width: 300px;
+    padding: 5px;
+}

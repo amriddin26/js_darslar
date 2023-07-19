@@ -37,11 +37,7 @@ function game() {
         text.style.fontWeight = 'bold';
         start.style.display = 'none';
         res.style.display = 'inline-block';
-    } else if(ans > span){
-        span.innerText = 6;
-        span.style.color = 'red'
     }
-    span ++;
 }
 
 function reload() {

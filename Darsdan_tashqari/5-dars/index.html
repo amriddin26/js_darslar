@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <marquee>This text will scroll from right to left</marquee>
+
+<marquee direction="up">This text will scroll from bottom to top</marquee>
+
+
+
+
+<marquee
+  direction="down"
+  width="250"
+  height="200"
+  behavior="alternate"
+  style="border:solid">
+  <marquee behavior="alternate"> This text will bounce </marquee>
+</marquee>
+
+<div contextmenu="popup-menu">Right-click to see the adjusted context menu</div>
+
+<menu type="context" id="popup-menu">
+  <menuitem type="checkbox" checked>Checkbox</menuitem>
+  <hr />
+  <menuitem
+    type="command"
+    label="This command does nothing"
+    icon="favicon-192x192.png">
+    Commands don't render their contents.
+  </menuitem>
+  <menuitem
+    type="command"
+    label="This command has javascript"
+    onclick="alert('command clicked')">
+    Commands don't render their contents.
+  </menuitem>
+  <hr />
+  <menuitem type="radio" radiogroup="group1">Radio Button 1</menuitem>
+  <menuitem type="radio" radiogroup="group1">Radio Button 2</menuitem>
+</menu>
+
+
+<form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+    <input type="range" id="b" name="b" value="50" /> +
+    <input type="number" id="a" name="a" value="10" /> =
+    <output name="result" for="a b">60</output>
+  </form>
+
+  <br><br><br>
+
+
+  <label for="pet-select">Choose a pet:</label>
+
+<select id="pet-select">
+    <option value="">--Please choose an option--</option>
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option>
+    <option value="hamster">Hamster</option>
+    <option value="parrot">Parrot</option>
+    <option value="spider">Spider</option>
+    <option value="goldfish">Goldfish</option>
+</select>
+
+<br><br><br>
+
+<label for="fuel">Fuel level:</label>
+
+<meter id="fuel"
+       min="0" max="100"
+       low="33" high="66" optimum="80"
+       value="50">
+    at 50/100
+</meter>
+
+<br><br><br><br>
+
+<iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="300"
+    height="200"
+    src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+</iframe>
+
+<br><br><br>
+
+<dialog open>
+    <p>Greetings, one and all!</p>
+    <form method="dialog">
+      <button>OK</button>
+    </form>
+  </dialog>
+
+  <br><br><br><br>
+
+  <p>Contact the author of this page:</p>
+
+<address>
+  <a href="mailto:jim@rock.com">amriddinjorayev7@gmail.com</a><br>
+  <a href="tel:+13115552368">(99)-565-28-12</a>
+</address>
+
+</body>
+</html>
