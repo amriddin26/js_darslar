@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>5-dars</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="range-block">
+            <p><input class="all" type="range" min="0" max="200" value="0" step="1" /> All</p>
+            <p>
+                <input class="tl" type="range" min="0" max="200" value="0" step="1" /> Top Left
+            </p>
+            <p>
+                <input class="tr" type="range" min="0" max="200" value="0" step="1" /> Top Right
+            </p>
+            <p>
+                <input class="br" type="range" min="0" max="200" value="0" step="1" /> Bottom Right
+            </p>
+            <p>
+                <input class="bl" type="range" min="0" max="200" value="0" step="1" /> Bottom Left
+            </p>
+            <p>
+                <input class="bw" type="range" min="0" max="50" value="0" step="1" /> Border Width
+            </p>
+            <p><input class="bc" type="color" /> Border Color</p>
+            <p><input class="bgc" type="color" /> Background Color</p>
+        </div>
+        <div class="block">
+            <textarea disabled></textarea>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
