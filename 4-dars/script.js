@@ -3,13 +3,23 @@ const input = document.querySelector('.inp');
 const start = document.querySelector('#Bun');
 const res = document.querySelector('#Bun1');
 const text = document.querySelector('.op');
-const span = document.querySelector('.span')
+const span = document.querySelector('.sp')
 const h2 = document.querySelector('h2')
 
 
 const random = Math.floor(Math.random() * 10 + 1 );
 
 console.log(random);
+
+function show(){
+    game.onclick = span;
+
+    if (show > random){
+        span.innerText = "6"
+
+    }
+
+}
 
 
 function game() {

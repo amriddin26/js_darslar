@@ -18,11 +18,14 @@ tRight.addEventListener('input', tRightCor);
 bRight.addEventListener('input', bRightCor);
 bLeft.addEventListener('input', bLeftCor);
 bWidth.addEventListener('input', bWidthCor);
+borColor.addEventListener('input', borColorCor);
+bColor.addEventListener('input', bColorCor);
+
 
 // Function
 
 function show(){
-    text.innerHTML = 'border-radius: ${tLeft.value}px ,${tRight.value}px ,${bRight.value}px ,${bLeft.value}px';
+    text.innerHTML = `border-radius: ${tLeft.value}px,${tRight.value}px,${bRight.value}px,${bLeft.value}px `;
 }
 
 function allCor(){
@@ -32,4 +35,39 @@ function allCor(){
     tRight.value = all.value;
     bRight.value = all.value;
     bLeft.value = all.value;
+
+    text.innerHTML = `border-radius: ${all.value}px`;
+    show();
+}
+
+function tLeftCor(){
+    block.style.borderTopLeftRadius = tLeft.value + 'px';
+    show();
+}
+
+function tRightCor(){
+    block.style.borderTopRightRadius = tRight.value + 'px';
+    show();
+}
+
+function bRightCor(){
+    block.style.borderBottomRightRadius = bRight.value + 'px';
+    show();
+}
+
+function bLeftCor(){
+    block.style.borderBottomLeftRadius = bLeft.value + 'px';
+    show();
+}
+
+function bWidthCor(){
+    block.style.borderWidth = bWidth.value + 'px';
+}
+
+function borColorCor(){
+    block.style.borderColor = borColor.value;
+}
+
+function bColorCor(){
+    block.style.backgroundColor = bColor.value;
 }
