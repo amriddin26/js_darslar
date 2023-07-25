@@ -11,6 +11,36 @@ div {
 
 iframe {
     border: 1px solid black;
-    height: 50vh;
-    width: 40%; /* takes precedence over the width set with the HTML width attribute */
+    height: 20vh;
+    margin: 5px;
+    width: 97%; /* takes precedence over the width set with the HTML width attribute */
+}
+
+.card{
+  width: 500px;
+  height: 600px;
+  margin: 0 auto;
+  border: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.498);
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  background-color: rgba(0, 0, 0, 0.588);
+}
+p{
+  color: white;
+  padding: 0 10px;
+}
+a{
+  padding: 10px;
+  color: white;
+}
+
+marquee{
+  color: white;
+  width: 480px;
+  margin: 5px;
 }
