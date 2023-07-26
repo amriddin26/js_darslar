@@ -1,0 +1,32 @@
+.maincontainer{
+  padding-top:10px;
+  padding-right:0;
+  padding-bottom:0;
+  padding-left:10px;
+}
+
+marker{
+}
+
+.node-text{
+  font:11px sans-serif;
+  fill:black;
+}
+
+.link-text{
+  font:9px sans-serif;
+  fill:grey;
+}
+
+svg{
+  height:70vh;
+  border:1px solid #cccccc;
+  width:100%;
+}
+
+.node_deleted{
+  stroke:#456;
+  fill:green;
+  stroke-width:2px;
+}
+
