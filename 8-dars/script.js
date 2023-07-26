@@ -1,5 +1,5 @@
 const slider = document.querySelector('.slider');
-const img = document.querySelector('img');
+const img = document.querySelector('#imgg');
 // buttons
 const prev = document.querySelector('#btn1');
 const next = document.querySelector('#btn2');
@@ -7,8 +7,8 @@ const next = document.querySelector('#btn2');
 let count = 0;
 
 function removeAcotive() {
-    for (let i = 0; i < img.length; i++) {
-        img[i].classList.remove('active');
+    for (let i = 0; i < imgg.length; i++) {
+        imgg[i].classList.remove('active');
     }
 }
 
@@ -20,10 +20,10 @@ next.addEventListener('click', nextSilde);
 function nextSilde() {
     removeAcotive();
     count++;
-    if (count === img.length) {
+    if (count === imgg.length) {
         count = 0;
     }
-    img[count].classList.add('active');
+    imgg[count].classList.add('active');
 }
 
 // PrevSilde Function
@@ -32,8 +32,8 @@ function prevSlide() {
     removeAcotive();
 
     if (count === 0) {
-        count = img.length;
+        count = imgg.length;
     }
     count--;
-    img[count].classList.add('active');
+    imgg[count].classList.add('active');
 }
