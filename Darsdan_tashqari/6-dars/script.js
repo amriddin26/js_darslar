@@ -1,9 +1,12 @@
-const box = document.querySelector('.box');
-const i = document.querySelector('.fa-regular fa-lightbulb');
+const on = document.querySelector('#but1');
+const off = document.querySelector('#but2');
+const i = document.querySelector('#lig');
 const bColor = document.querySelector('.bColor');
 
 bColor.addEventListener('input', bColorCor);
+on.addEventListener('input', onCor);
+off.addEventListener('input', offCor);
 
-function bColorCor(){
-    box.style.backgroundColor = bColor.value;
+function onCor(){
+    on.style.backgroundColor = bColor.value;
 }

@@ -12,23 +12,47 @@
 }
 
 .box{
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 100px;
     margin: 0 auto;
+    top: 200px;
     position: relative;
-    border-radius: 50%;
+    border-radius: 20%;
     background-color: #fff;
 }
 
 .box i{
-    font-size: 100px;
+    font-size: 250px;
     position: absolute;
-    top: 200px;
-    right: 600px;
+    top: -40px;
+    right: 350px;
+    border-color: #fff;
 }
 
 input {
+    width: 80px;
+    height: 40px;
     position: absolute;
-    top: 310px;
-    right: 610px;
+    top: 270px;
+    right: 400px;
+}
+
+.box #but1{
+    border-radius: 20px 20px 0  0;
+    font-size: 30px;
+    display: block;
+    width: 255px;
+    top: -50px;
+    left: -1px;
+    height: 110px;
+}
+
+.box #but2{
+    border-radius: 0  0  20px 20px;
+    font-size: 30px;
+    display: block;
+    width: 255px;
+    height: 100px;
+    top: 60px;
+    left: -1px;
 }
