@@ -9,8 +9,17 @@ let count = 0;
 let dotIndex = 0;
 let timer = null;
 
+slider.addEventListener('mousemove', () => {
+    clearTimeout(timer);
+});
+
+slider.addEventListener('mousemove', () => {
+    clearTimeout(timer);
+    autoplay();
+});
+
 function autoplay() {
-    timer = setTimeout(nextSlide, 3000)
+    timer = setTimeout(nextSlide, 3000);
 }
 
 prev.addEventListener('click', prevSlide);
@@ -42,6 +51,7 @@ function nextSlide() {
     img[count].classList.add('active');
     dots[count].classList.add('active');
     autoplay();
+    slider();
 }
 
 function prevSlide() {
@@ -53,4 +63,5 @@ function prevSlide() {
     img[count].classList.add('active');
     dots[count].classList.add('active');
     autoplay();
+    slider();
 }
